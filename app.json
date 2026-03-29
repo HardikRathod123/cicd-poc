@@ -51,6 +51,12 @@
         "projectId": "4e2e6860-15a6-4892-b047-4f35b35a295c"
       }
     },
-    "owner": "hardikrathod"
+    "owner": "hardikrathod",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/4e2e6860-15a6-4892-b047-4f35b35a295c"
+    }
   }
 }

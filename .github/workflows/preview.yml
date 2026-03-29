@@ -35,3 +35,6 @@ jobs:
 
       - name: Build preview
         run: eas build --profile preview --platform android --non-interactive
+
+      - name: Publish OTA update
+        run: eas update --branch preview --message "Update from ${{ github.sha }}"
