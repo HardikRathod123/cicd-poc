@@ -22,7 +22,9 @@ export default function HomeScreen() {
       }
     >
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Welcome!</ThemedText>
+        <ThemedText type="title">
+          Welcome! Aniol this is testing the update without downloading again
+        </ThemedText>
         <HelloWave />
       </ThemedView>
 
